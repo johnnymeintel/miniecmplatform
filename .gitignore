@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.idea/ # For PyCharm users
+.vscode/ # For VS Code users
+*.log
+
+# Docker
+*.docker
+*.env
+# If you used local volumes (e.g., ecm_storage, ecm_metadata on host):
+# ecm_storage/
+# ecm_metadata/
+
+# Operating System Files
+.DS_Store # macOS
+Thumbs.db # Windows
